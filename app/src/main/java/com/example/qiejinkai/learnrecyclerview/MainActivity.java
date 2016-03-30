@@ -20,9 +20,6 @@ public class MainActivity extends AppCompatActivity {
         rv.setLayoutManager(new GridLayoutManager(this, 4));
        // rv.setLayoutManager(new LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL,true));
         rv.setAdapter(new MyAdapter(this));
-        String str ="123";
-
-        String str2 ="123455";
     }
 
 }
